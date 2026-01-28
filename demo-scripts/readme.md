@@ -46,6 +46,10 @@ Changes for this demo:
 
 <img src="../.github/term.jpg" alt="fosdem demo" width="600" />
 
+
+<img width="600"  alt="image" src="https://github.com/user-attachments/assets/4d9e3674-1969-4169-9b72-d52646da2e48" />
+
+
 ```sh
 # Initial setup on laptop
 sudo ./laptop-minicom.sh
