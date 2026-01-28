@@ -7,6 +7,8 @@ The goal of this demo is to show that OpenCCA can be used to rapidly prototype s
 CCA. This makes it possible to estimate the performance of Arm CCA research designs and interact
 with real-world peripherals, going beyond the capabilities of pure software simulation.
 
+https://opencca.github.io/
+
 ## What this demo shows
 - Boot a Realm VM using kvmtool on opencca
 - Expose the Mali G610 GPU to the guest:
