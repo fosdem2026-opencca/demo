@@ -4,8 +4,7 @@ This repo contains the code used for a live demo that boots a CVM on with opencc
 G610 GPU, and runs OpenGL inside X, from within the CVM.
 
 The goal of this demo is to show that OpenCCA can be used to rapidly prototype system ideas with Arm
-CCA. This makes it possible to estimate the performance of Arm CCA research designs and interact
-with real-world peripherals, going beyond the capabilities of pure software simulation.
+CCA and real devices, going beyond the capabilities of pure software simulation.
 
 https://opencca.github.io/
 
@@ -25,7 +24,7 @@ https://opencca.github.io/
   - The GPU has no SMMU on the rk3588, so we reserve a chunk of RAM and identity-map IPA = PA so the
     GPU can DMA into guest memory
     
-- This is a quick demo, no proper teardown or error handling.
+- This is demo code, no proper teardown or error handling was implemented.
 
 ## Repositories
 Changes for this demo:
@@ -33,6 +32,27 @@ Changes for this demo:
 - Kvmtool: [fosdem2026/kvmtool](https://github.com/fosdem2026-opencca/kvmtool)
 - Demo scripts: [./demo-scripts](./demo-scripts)
 
+### Directory Layout
+Set up the opencca repo project layout in the root directory.
+```
+drwxrwxr-x 1 b b  298 Jan 28 17:55 .
+drwxrwxr-x 1 b b   14 Jan 28 12:07 ..
+drwxrwxr-x 1 b b  466 Jan 23 15:01 buildroot
+drwxrwxr-x 1 b b  586 Jan 23 15:01 debian-image-recipes
+drwxrwxr-x 1 b b   84 Jan 28 14:28 demo                    <-- this repository
+drwxrwxr-x 1 b b 3124 Jan 23 16:16 kvmtool
+drwxrwxr-x 1 b b 2458 Jan 28 14:53 linux
+drwxrwxr-x 1 b b   20 Jan 23 15:01 opencca-assets
+drwxrwxr-x 1 b b   98 Jan 23 15:01 opencca-build
+drwxrwxr-x 1 b b  214 Jan 23 16:57 opencca-flash
+drwxrwxr-x 1 b b   64 Jan 23 15:01 opencca-manifest
+drwxrwxr-x 1 b b  298 Jan 23 15:06 .repo
+drwxrwxr-x 1 b b  122 Jan 23 15:01 rkbin
+drwxrwxr-x 1 b b 1328 Jan 23 16:07 snapshot
+drwxrwxr-x 1 b b  338 Jan 23 16:06 tf-rmm
+drwxrwxr-x 1 b b  706 Jan 23 16:06 trusted-firmware-a
+drwxrwxr-x 1 b b 2118 Jan 28 13:57 u-boot
+```
 ## Local Setup
 ### Network
 - Subnet: 10.42.0.0/24
