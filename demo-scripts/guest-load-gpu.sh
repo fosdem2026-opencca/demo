@@ -6,3 +6,4 @@ cd $SCRIPT_DIR/../../linux/drivers/gpu/drm/panthor
 rmmod ./panthor.ko || true
 modprobe ./panthor.ko
 
+bash $SCRIPT_DIR/guest-run-x.sh
