@@ -9,7 +9,7 @@ with real-world peripherals, going beyond the capabilities of pure software simu
 
 https://opencca.github.io/
 
-## What this demo shows
+## What this demo prototypes on OpenCCA
 - Boot a Realm VM using kvmtool on opencca
 - Expose the Mali G610 GPU to the guest:
   - Provide a GPU node in the guest DT
