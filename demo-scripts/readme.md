@@ -30,7 +30,6 @@ https://opencca.github.io/
 Changes for this demo:
 - Linux: [fosdem2026-opencca/linux](https://github.com/fosdem2026-opencca/linux)
 - Kvmtool: [fosdem2026/kvmtool](https://github.com/fosdem2026-opencca/kvmtool)
-- Demo scripts: [./demo-scripts](./demo-scripts)
 
 ### Directory Layout
 Set up the opencca repo project layout in the root directory.
